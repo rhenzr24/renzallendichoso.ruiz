@@ -237,14 +237,14 @@ span {
 {
   flex: 50%;
   background-color: #121212;
-  margin: 20px;
+  margin: 10px;
   border-radius: 10px;
   padding: 10px;
   color: #ced4da;
   border: #ffd700 solid 2px;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
 }
 
 .customs1{
@@ -328,6 +328,11 @@ span {
     width: 200%;
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  .customs,.customs1{
+    width: 100%;
+    margin: 20px auto;
   }
 
   .customs:hover{
