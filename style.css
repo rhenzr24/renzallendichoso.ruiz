@@ -247,6 +247,11 @@ span {
   width: 100%;
 }
 
+
+.customs{
+  scale: 120%;
+}
+
 .customs1{
   flex: 50%;
   background-color: #121212;
