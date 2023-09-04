@@ -15,6 +15,27 @@ body {
 
 /* Navigation tools */
 
+
+.eyemode{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 3;
+  margin: 20px;
+  border-radius: 25px;
+  color: #3d3d3d;
+  box-shadow:  3px 3px 3px #121212;
+}
+
+
+.eyemode:hover{
+  transform: scale(110%);
+  color:#ffd700;
+  transition-duration: .6s;
+}
+
 .nav-bar {
   position: fixed;
 
@@ -31,6 +52,10 @@ body {
   border-bottom: solid 2px #ffd700;
   z-index: 1;
 }
+
+#mynavbar.dark-mode{
+  background-color: #ced4da;
+} 
 
 .nav-bar ul {
   width: 100%;
@@ -307,6 +332,10 @@ span {
   .custom-col1{
     margin: auto;
   }
+
+  .mymodal{
+    display: none;
+  }
 }
 
 @media (max-width: 908px) {
@@ -317,6 +346,58 @@ span {
   .custom-menu {
     display: block;
   }
+
+  .custom-menu:hover{
+    transition: ease-in;
+    transition-duration: 1s;
+    color: #f5f5f5;
+    transition-property: bold;
+  }
+
+    .mymodal{
+      position: fixed;
+      z-index: 1;
+      backdrop-filter: blur(10px);
+      height: 100%;
+      width: 100%;
+      display: none;
+      justify-content: center;
+    }
+
+    .mycontainer button{
+      width: 7%;
+      height: 5%;
+      border-radius: 20%;
+      position: absolute;
+      top: 0;
+      background-color: red;
+      color: #ced4da;
+      right: 0;
+    }
+
+    .mycontainer a{
+      color: gold;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .mycontainer ul li{
+      padding: 10px;
+      
+    }
+
+    .mycontainer{
+      background-color: #000000;
+      text-align: center;
+      margin: auto;
+      padding: 50px;
+      border-radius: 10px;
+    }
+    .mycontainer a:hover{
+      color: #3d3d3d;
+    }
+
   .custom-profilename {
     width: 300px;
   }
