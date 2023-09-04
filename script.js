@@ -1,6 +1,5 @@
 var mymodal = document.getElementById("mymodal"); 
-const darkModeToggle = document.getElementById("mylightmode");
-const content = document.getElementById("mynavbar");
+
 
 
 
@@ -19,6 +18,3 @@ function mylinks(){
     
 }
 
-darkModeToggle.addEventListener("click", () => {
-    content.classList.toggle("dark-mode");
-});
