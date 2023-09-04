@@ -1,8 +1,5 @@
 var mymodal = document.getElementById("mymodal"); 
 
-
-
-
 function modalhide(){
 
     mymodal.style.display = "none";
